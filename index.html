@@ -1,59 +1,27 @@
-<!-- Rae Crusoe 5/18/23-->
+<!-- This tells the browser that the page is HTML5 -->
 <!DOCTYPE html>
+<!-- HTML tag is required, set the language to en for English -->
 <html lang="en">
+<!-- The head section is for the browser and search engines primarily -->
 <head>
+    <!-- This page can support basically any character in any language -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Keep this tag so the website will look good on desktop or mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSC102 Index</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="code.js"></script>
-</head>
-<body>
- 
-        <!-- This is the menu to navigate around the entire site-->
-       <div class="menu">
-           <a class="active" href="default.html">Home</a>
-           <a href="index.html">Meme</a>
-           <a href="game.html">Game</a>
-           <a href="sound.html">Sound</a>
-           <a href="table.html">Table</a>
-           <a href="strings.html">Strings</a>
-           <a href="boards.html">Boards</a>
-       </div>
-
-
-    <!-- Here is the header section, the page title is located here -->
-    <header>
-        <h1>Welcome to my CSC102 page</h1>
-    </header>
-
-    <!-- This is our menu. It will allow us to navigate between pages. -->
-   
-    <br>
-    <input type="button" onclick="start();" 
-    value="Start" class="btn">
-    <input type="button" onclick="stop();" 
-    value="Stop" class="btn">
-    <!-- Here is our page content. There is a paragraph tag with
-         page info and a meme.
+    <!-- The text that will appear in the browser tab
+        Keep it short, sweet and descriptive
     -->
-    <p>
-        I created this page for CSC102. Please enjoy your visit.
+    <title>CSC102 Home Page</title>
+</head>
+<!-- All of our page content should go here -->
+<body>
+    <!-- Add the page heading = the page title, 1 and only 1 H1 per page -->
+    <h1>CSC102 Home Page</h1>
 
-        <br>
-        <img id="memeImage" src="meme.jpeg">
+    <!-- This paragraph tag will hold our meme -->
+    <p>
+        <!-- This is my meme image -->
+        <img id="memeImage" src="meme.jpeg" alt="Meme Image">
     </p>
-   
-    <!-- This is the footer which we can have say name and UAT info. -->
-    <footer>
-        Rae Crusoe
-        <br>
-        University of Advancing Technology
-        <br>
-        2625 W Baseline Rd.
-        <br>
-        Tempe, AZ 85283
-    </footer>
 </body>
 </html>
